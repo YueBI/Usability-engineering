@@ -68,7 +68,7 @@ Software Architecture Analysis of Usability
       8) context_sentense_help 上下文帮助
       9）system_feedback 系统反馈
       19）cancel 取消
-      20）undo 未处理
+      20）undo 撤销
       21）history_logging 历史日志
       22）data_validation 数据验证
       23）Emulation 仿真
@@ -79,7 +79,22 @@ Software Architecture Analysis of Usability
   本文重点关注：可用性的早期评估
   一种基于场景的评估技术（SALUTA）
   
-3.1  Usability Specification 可用性规范
+3.1 场景概要
+
+  场景概要：用于指定所需的质量需求和评估这些需求的软件体系结构的技术
+  场景概要通过一组场景描述软件质量属性的语义，使用场景的主要优点是场景代表了需求的实际含义，然后可以评估软件架构是否支持场景概要中的场景
+  
+3.2 场景
+
+  用户 —— 谁在使用产品? (系统管理员，新手用户)
+  任务 —— 用户试图对产品做什么? 
+  使用的背景  ——  产品在哪里以及如何使用?
+  
+在使用场景中，要权衡并找出可用性属性的各个优先级（例如效率和易学性）
+
+4、SALUTA
+
+  
 
  
    
